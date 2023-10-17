@@ -22,7 +22,7 @@ export const GifGrid = ({ category }) => {
                 {
                     images.map( ({ id, title })=> (
                         <li key={ id }> { title } </li>
-                    ))}
+                       ))}
             </ol>
         </>
   )
